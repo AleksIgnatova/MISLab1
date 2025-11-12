@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/exam_list_screen.dart'; // <- увоз на листата на испити
+import 'screens/exam_list_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,8 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      // Сега стартуваш директно на екран со листа на испити
-      home: ExamListScreen(studentIndex: '20251234'),
+      home: ExamListScreen(studentIndex: '221254'),
     );
   }
 }
